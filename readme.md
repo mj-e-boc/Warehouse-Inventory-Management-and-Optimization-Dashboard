@@ -123,7 +123,7 @@ If you like this project feel free to get in touch with me via a message here or
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank the microverse Alumni that keep inspiring me to code.
+I would like to thank professor Jakub who keeps inspiring us to code.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
