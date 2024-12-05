@@ -18,7 +18,7 @@
 
 # 📖 Warehouse Inventory Management and Optimization Dashboard <a name="about-project"></a>
 
-This project is a Python-based dashboard designed to simplify warehouse inventory management. By using predictive analytics, optimization techniques, and interactive visualizations, the dashboard aims to enhance decision-making, reduce waste, and optimize operations.
+The **Warehouse Inventory Management and Optimization Dashboard** is a Python-based project designed to simplify warehouse inventory management. By using predictive analytics, optimization techniques, and interactive visualizations, it helps stakeholders make data-driven decisions, reduce costs, and improve efficiency.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -46,10 +46,12 @@ This project is a Python-based dashboard designed to simplify warehouse inventor
 
 ### Key Features <a name="key-features"></a>
 
-- **Inventory Forecasting**: Predict future inventory needs using statistical models.
-- **Optimization Models**: Implement linear programming to minimize costs and maximize efficiency.
-- **Interactive Dashboards**: Visualize trends and KPIs in an intuitive interface.
-- **SQL Integration**: Manage and query data using a MySQL database.
+- Predict future inventory demand to avoid shortages or overstocking.
+- Optimize inventory strategies using linear programming.
+- Provide interactive dashboards to visualize data trends and key performance indicators (KPIs).
+- Integrate MySQL for reliable data storage and querying.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -57,20 +59,22 @@ This project is a Python-based dashboard designed to simplify warehouse inventor
 
 ### Prerequisites
 
-In order to run this project, you need:
+In order to run this project you need:
 
 - Python 3.8 or higher
 - MySQL Workbench
 - A terminal or command-line interface
 
 ### Setup
-
 Clone this repository to your desired folder:
 
 ```sh
-git clone https://github.com/your-repo-name.git
-cd warehouse-dashboard
+git clone https://github.com/mj-e-boc/Leaderboard-setup-project.git
+```
+open the project using:
+cd folder-name
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 👥 Authors <a name="authors"></a>
 
@@ -80,17 +84,18 @@ cd warehouse-dashboard
 - Twitter: [@mjononoronald](https://twitter.com/Mjononoronald)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/ronald-mjonono-86365988/)
 
-👤 **Ronald Mjonono**
 
-- GitHub: [@mj-e-boc](https://github.com/mj-e-boc)
-- Twitter: [@mjononoronald](https://twitter.com/Mjononoronald)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/ronald-mjonono-86365988/)
+👤 **Mzingaye Khumalo**
 
-👤 **Ronald Mjonono**
+- GitHub: []()
+- Twitter: []()
+- LinkedIn: [LinkedIn]()
 
-- GitHub: [@mj-e-boc](https://github.com/mj-e-boc)
-- Twitter: [@mjononoronald](https://twitter.com/Mjononoronald)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/ronald-mjonono-86365988/)
+👤 **Langelihle Magwali**
+
+- GitHub: []()
+- Twitter: []()
+- LinkedIn: [LinkedIn]()
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -118,7 +123,7 @@ If you like this project feel free to get in touch with me via a message here or
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank professor jakub that keep inspiring me to code.
+I would like to thank the microverse Alumni that keep inspiring me to code.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -126,6 +131,7 @@ I would like to thank professor jakub that keep inspiring me to code.
 
 - **Can I use this project?**
 
+  - Under MIT license you can use this project.
   - Under MIT license you can use this project.
 
 
