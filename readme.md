@@ -95,7 +95,7 @@ cd folder-name
 
 - GitHub: []()
 - Twitter: []()
-- LinkedIn: [LinkedIn]()
+- LinkedIn: [LinkedIn](www.linkedin.com/in/mzingaye-khumalo-864406158)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
