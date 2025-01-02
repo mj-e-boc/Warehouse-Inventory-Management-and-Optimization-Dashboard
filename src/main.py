@@ -1,15 +1,19 @@
-from data_wrangling import clean_data
-from sql_utils import create_tables, insert_data_to_db, execute_query
+from datawrangling import clean_data
+from sql.db_operations import create_tables, insert_data_to_db, execute_query
 import matplotlib.pyplot as plt
 import pandas as pd
+import os
 
 # File paths
-RAW_DATA_PATH = "data/inventory_data.csv"
+RAW_DATA_PATH = "/Users/mjay/Desktop/Data science and Business Analytics/Python/Final project plan/Warehouse-Inventory-Management-and-Optimization-Dashboard/src/data/Warehouse_Inventory_Data.csv"
 DB_PATH = "data/inventory.db"
 
 # Step 1: Clean the dataset
 print("Cleaning the dataset...")
 cleaned_data = clean_data(RAW_DATA_PATH)
+if cleaned_data is None or cleaned_data.empty:
+    print("Error: No data found after cleaning. Exiting.")
+    exit()
 print(cleaned_data.head())
 
 # Define column names and types for SQLite table
@@ -25,6 +29,8 @@ columns = [
 
 # Step 2: Set up SQLite database
 print("Setting up the database...")
+if not os.path.exists("data"):
+    os.makedirs("data")  # Create the data directory if it doesn't exist
 create_tables(DB_PATH, columns)
 
 # Step 3: Insert cleaned data into the database
@@ -35,6 +41,10 @@ insert_data_to_db(DB_PATH, cleaned_data)
 print("Fetching insights...")
 query = "SELECT * FROM inventory WHERE Current_Stock_Level < Reorder_Point;"
 low_stock_items = execute_query(DB_PATH, query)
+
+if low_stock_items.empty:
+    print("No low stock items found.")
+    exit()
 
 print("Low stock items:")
 print(low_stock_items)

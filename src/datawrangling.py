@@ -1,9 +1,10 @@
 import pandas as pd
 
-def clean_data(file_path):
+rawdata = "src/data/Warehouse_Inventory_Data.csv"
+def clean_data(rawdata):
     """Cleans the raw dataset."""
     # Read CSV file
-    df = pd.read_csv(file_path)
+    df = pd.read_csv(rawdata)
 
     # Check for missing columns
     if "Product_ID" not in df.columns:
