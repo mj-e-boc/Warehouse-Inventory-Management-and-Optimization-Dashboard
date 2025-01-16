@@ -66,13 +66,33 @@ In order to run this project you need:
 - A terminal or command-line interface
 
 ### Setup
-Clone this repository to your desired folder:
+Follow these steps to set up and run the project:
 
-```sh
-git clone https://github.com/mj-e-boc/Leaderboard-setup-project.git
-```
-open the project using:
-cd folder-name
+1. **Clone the Repository**
+   Clone this repository to your desired folder:
+   ```sh
+   git clone https://github.com/mj-e-boc/Warehouse-Inventory-Management-and-Optimization-Dashboard.git
+   ```
+
+2. **Navigate to the Project Folder**
+   Open the project directory:
+   ```sh
+   cd Warehouse-Inventory-Management-and-Optimization-Dashboard
+   ```
+
+3. **Run the Python Notebook**
+   The project can be run via a Python notebook located in the `src` folder. Navigate to the `src` folder:
+   ```sh
+   cd src
+   ```
+
+4. **Launch Jupyter Notebook**
+   Open the Python notebook (e.g., `fullproject.ipynb`) using Jupyter Notebook or JupyterLab:
+   ```sh
+   jupyter notebook
+   ```
+   Once the Jupyter environment launches, select the notebook file from the list and run the cells.
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
