@@ -87,11 +87,12 @@ Follow these steps to set up and run the project:
    ```
 
 4. **Launch Jupyter Notebook**
-   Open the Python notebook (e.g., `fullproject.ipynb`) using Jupyter Notebook or JupyterLab:
+   Open the Python notebook (`fullproject.ipynb`) using Jupyter Notebook or JupyterLab:
    ```sh
    jupyter notebook
    ```
    Once the Jupyter environment launches, select the notebook file from the list and run the cells.
+   
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
