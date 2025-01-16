@@ -108,13 +108,13 @@ Follow these steps to set up and run the project:
 
 👤 **Mzingaye Khumalo**
 
-- GitHub: []()
+- GitHub: [Mzingaye-lab](https://github.com/Mzingaye-lab)
 - Twitter: []()
 - LinkedIn: [LinkedIn](www.linkedin.com/in/mzingaye-khumalo-864406158)
 
 👤 **Langelihle Magwali**
 
-- GitHub: []()
+- GitHub: [Angela20023](https://github.com/Angela20023)
 - Twitter: []()
 - LinkedIn: [LinkedIn](www.linkedin.com/in/mzingaye-khumalo-864406158)
 
